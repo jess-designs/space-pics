@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Picture of the Day</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&family=Syne:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/main.css">
+</head> 
+<body>
+   
+    <img src="<%= imgSrc %>">
+     <h3> TODAY'S PHOTO:</h3>
+    <h1> "<%= title %>"</h1>
+    <p class="description"> <%= description %></p>
+    <p class="full-img">Full image <a style="text-decoration: none;font-weight: 600;" href="<%= imgSrc %>">here.</a> </p>
+</body>
+<footer>
+    <p>Copyright © Jess-Designs <%- new Date().getFullYear() %> </p>
+</footer>
+</html>

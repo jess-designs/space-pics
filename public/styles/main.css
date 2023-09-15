@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    margin: 0;
+  padding: 0;
+}
+
+img {
+    width: 100%;
+    height: 83vh;
+    object-fit: cover;
+}
+h3 {
+    font-family: Syne;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: Syne;
+    font-weight: 700;
+}
+
+.description {
+    text-align: justify;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    line-height: 1.5rem;
+    font-family: 'Montserrat';
+}
+
+.full-img {
+    font-family: 'Montserrat';
+    text-align: left;
+    width: 80%;
+    padding-top: 15px;
+    margin: auto;
+}
+
+footer {
+    font-family: Syne;
+    font-weight: 400;
+}
