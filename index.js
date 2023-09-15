@@ -9,7 +9,6 @@ dotenv.config();
 const apiKey = process.env.NASA_API_KEY;
 const app = express();
 const port = 3000;
-// const apiKey = "YqAiZXA7dZE9BminslPo1xywFptwEQ1eZQ9ZAiJt";
 
 
 app.use(express.static("public"));
