@@ -25,8 +25,10 @@ h1 {
     width: 80%;
     display: flex;
     margin: auto;
-    line-height: 1.5rem;
+    line-height: 2.1rem;
     font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.1rem;
 }
 
 .full-img {
@@ -35,10 +37,13 @@ h1 {
     width: 80%;
     padding-top: 15px;
     margin: auto;
+    font-weight: 400;
+    font-size: 1.1rem;
 }
 
 
 footer {
     font-family: Syne;
     font-weight: 400;
+    margin-bottom: 25px;
 }
