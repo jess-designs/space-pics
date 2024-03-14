@@ -13,13 +13,19 @@
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-    <img src="<%= imgSrc %>" />
-    <h3>TODAY'S PHOTO:</h3>
-    <h1>"<%= title %>"</h1>
-    <p class="description"><%= description %></p>
-    <p class="full-img">
-      Full image <a href="<%= imgSrc %>">here</a>, courtesy of NASA.
-    </p>
+    <div class="intro">
+      <img src="<%= imgSrc %>" />
+      <!-- <h3>TODAY'S PHOTO:</h3> -->
+      <h1>"<%= title %>"</h1>
+      <strong class="description"
+        ><%- (new Date()).toLocaleDateString('en-US', {month: 'long', day:
+        'numeric', year: 'numeric' }) %></strong
+      >
+    </div>
+    <div class="description">
+      <p><%= description %></p>
+      <p>Full image <a href="<%= imgSrc %>">here</a>, courtesy of NASA.</p>
+    </div>
   </body>
   <footer>
     <p>Jessica Zwicky <%- new Date().getFullYear() %></p>
