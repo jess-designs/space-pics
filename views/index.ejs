@@ -17,10 +17,10 @@
       <img src="<%= imgSrc %>" />
       <!-- <h3>TODAY'S PHOTO:</h3> -->
       <h1>"<%= title %>"</h1>
-      <strong class="description"
-        ><%- (new Date()).toLocaleDateString('en-US', {month: 'long', day:
-        'numeric', year: 'numeric' }) %></strong
-      >
+      <p class="date">
+        <%- (new Date()).toLocaleDateString('en-US', {month: 'long', day:
+        'numeric', year: 'numeric' }) %>
+      </p>
     </div>
     <div class="description">
       <p><%= description %></p>
